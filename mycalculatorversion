@@ -1,6 +1,6 @@
 from art import logo
 print(logo)
-
+ 
 calculator = True
 continue_calc = True
 
