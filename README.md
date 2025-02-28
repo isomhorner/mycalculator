@@ -7,6 +7,7 @@ But the last step is: "[If no further calculation is needed for the current resu
 The issue of the code below is: It creates an illusion of starting over by inserting 20 linebreaks...
 ***It isn't wiping all memory of previous calculations***
 In my code, I wrote my calculator program by inserting the whole thing into an infinite 'while loop' so that it starts over, clean slate, forever
+Additionally, I use .get to -get- the operation/value of the key operator, indicated by the user
 
 
 def calculator():
